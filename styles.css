@@ -10,18 +10,23 @@ body {
     background-size: cover; /* 让背景图片自适应铺满整个页面，也可以使用其他值，如contain（等比例缩放图片使其完整显示在页面内）等 */
     background-position: center center; /* 设置图片位置，这里是居中显示，也可设置具体的像素值或其他位置关键字组合，比如top left等 */
     background-attachment: fixed;
+    color:#333;
 }
 
 header {
     background: #007BFF;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-around; /* 让导航栏元素均匀分布 */
+    align-items: center;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
@@ -30,18 +35,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+   color: #0056b3;
     text-decoration: none;
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
     flex: 1; 
 }
 
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
     background: #f4f4f4;
     background-image: url('https://raw.githubusercontent.com/yijiangxiyouyu/hebei/refs/heads/main/%E8%83%8C%E6%99%AF.jpg'); /* 这里的路径要根据实际图片存放位置调整，确保能正确找到图片文件，示例是相对路径写法，如果图片在根目录下可直接写文件名 */
     background-repeat: no-repeat; /* 控制图片是否重复，no-repeat表示不重复，可根据需求改为repeat（平铺）、repeat-x（横向平铺）、repeat-y（纵向平铺）等 */
@@ -51,15 +56,18 @@ footer {
 }
 
 h1 {
-    font-size: 2em; 
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 1.5em; 
+    font-size: 2em;
+    margin-bottom: 15px;
 }
 
 p {
-    font-size: 1.2em; 
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 img {
