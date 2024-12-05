@@ -82,3 +82,14 @@ img {
     max-width: 100%; 
     height: auto;
 }
+a:hover {
+    opacity: 0.8;
+    color: #fff; 
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5); 
+}
+a {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
